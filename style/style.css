@@ -31,7 +31,7 @@ font-weight: 850;
 color: rgb(19, 13, 13);
 width: 500px;
 height: 250px;
-padding-left: 800px;
+padding-left: 750px;
 
 
    
@@ -230,13 +230,70 @@ font-size: 18px;
       /* future-section */
        
 .future{
-
-
+  width: 1500px;
 display: flex;
-
-
+align-items: center;
+gap: 600px;
+padding-left: 300px;
+height: 500px;
+background-color:black;
 
 }
+
+
+  
+.futuer-heading{
+font-size: 50px;
+padding-bottom: 10px;
+font-family:cursive;
+color: aliceblue;
+}
+
+
+
+.future-title{
+  text-align: justify;
+  width: 250px;
+  padding-bottom: 10px;
+  color: aliceblue;
+
+  
+  }
+
+  .icon{
+
+padding: 10px 15px;
+
+  }
+
+  ul , li{
+padding: 5px;
+text-align: justify;
+list-style: none;
+font-size: 20px;
+
+
+  } 
+
+  .contact{
+
+padding-bottom: 30px;
+font-size: 40px;
+text-align: justify;
+font-family:cursive;
+color: #fff;
+
+  }
+ .contact-title{
+display: block;
+padding: 10px 15px;
+border: .5 solid #fff;
+border-radius: 5px;
   
 
 
+ }
+  
+ .last{
+  padding: 5px;
+ }
