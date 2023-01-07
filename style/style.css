@@ -27,8 +27,11 @@
 font-size: 60px;
 font-family:  sans-serif;
 padding-bottom: 35px;
-font-weight: 900;
+font-weight: 850;
 color: rgb(19, 13, 13);
+width: 500px;
+height: 250px;
+padding-left: 800px;
 
 
    
@@ -38,6 +41,9 @@ color: rgb(19, 13, 13);
     padding-bottom: 20px;
     color: rgb(133, 126, 117);
     font-size: 20px;
+    width: 450px;
+    
+    padding-left: 800px;
 
 
 
@@ -68,6 +74,169 @@ padding-bottom: 300px;
 
 /* meddle section style  */
 
+.meddle{
 
+    display: flex;
+   
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.meddle-title{
+
+    padding-left: 100px;
+  
+   
+   
+}
+
+.meddle-subtitle{
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-weight: 800;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ 
+.meddle-style{
+
+padding: 5px;
+width: 445px;
+color: rgb(83, 78, 70);
+font-size: 18px;
+
+}
+
+.list-item{
+
+    padding-top:  20px;
+    
+    padding-left:20px;
+    color: rgb(83, 78, 70);
+    list-style: none;
+
+
+}
+ 
+    ul li {
+        list-style-image: url('../images/cheakm.png' ) ;
+        
+        width: 600px;
+        font-size: 18px;
+        padding-left: 5px;
+        
+        
+      }
+
+      /* containe  */
+
+      .container{
+                
+        display: flex;
+        gap: 100px;
+        padding-left: 90px;
+        margin: 20px 200px;
+        text-align: justify;
+        align-content: center;
+        padding-bottom: 80PX;
+        
+      }
+
+
+      .heading{
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 20px;
+        font-family:  Tahoma,  Verdana, sans-serif;
+        
+        
+      }
+
+      
+
+
+      .container-title1{
+        padding: 10px;
+        font-size: 20px;
+      
+      color: rgb(19, 17, 17);
+      
+     
+     
+      }
+      .container-subtitle1{
+        padding-left: 10px;
+        font-size:20px;
+        color: rgb(90, 81, 81);
+       
+      }
+
+      .img-1{
+        padding-left: 20PX; 
+         
+
+      }
+       /* color-gradiend  */
+      
+      .gradiend{
+          background: url('../images/watch.png');
+        
+          position: relative;
+          height: 200px;
+            margin-left: 350px;
+            background-repeat: no-repeat;
+            width: 800px;
+            border-radius: 10px;
+
+      } 
+
+      .gradiend-title{
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(255, 63, 5));
+        width: 100%;
+        height: 100%;
+        padding-left: 80px;
+        border-radius: 10px;
+        
+      
+       
+      }
+
+      .gradiend-subtitle{
+          padding-top: 30px;
+          justify-items: right;
+          font-family:Arial, Helvetica, sans-serif;
+          width: 300px;
+          padding-bottom: 10px;
+          font-weight: 900;
+          font-size: 32px;
+          
+         
+      }
+
+      .btn{
+       
+       
+        color:rgb(230, 86, 29) ;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;    
+        font-weight: 700;
+        padding: 15px 20px;
+            
+      }
+
+      /* future-section */
+       
+.future{
+
+
+display: flex;
+
+
+
+}
+  
 
 
